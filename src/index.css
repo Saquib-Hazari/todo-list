@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer components {
+  .btn-circle {
+    @apply bg-black border-2 border-gray-600 text-white rounded-full p-4 cursor-pointer hover:transition-all;
+  }
+
+  .input-form {
+    @apply border-2 border-gray-500 rounded-xl p-4 w-200 mt-2.5;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 157, 0, 0.1);
+  position: relative;
+}
+.dark body {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.btn-green {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  padding: 10px 3cap;
+  border: none;
+  background-color: #fff;
+  border-radius: 7px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.btn-green:hover {
+  background-color: #78c841;
+}
+.btn-gray {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #000;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.btn-gray:hover {
+  background-color: #78c841;
+}
